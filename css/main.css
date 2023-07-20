@@ -57,6 +57,9 @@ body {
     position: absolute;
     left: 0;
     top: 32px;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 10px #ffbf00);
+    filter: drop-shadow(5px 5px 10px #ffbf00);
 }
 
 .city-gallery {
@@ -94,4 +97,35 @@ body {
 .gallery-image {
     width: 100%;
     border-radius: 48px;
+}
+
+.footer {
+    background-color: #efefef;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #1b1d1f;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #1b1d1f;
+}
+
+.footer-text a:hover {
+    text-decoration: none;
+    color: #1b1d1f;
+}
+
+.footer-text a:active {
+    text-decoration: none;
+    color: #1b1d1f;
 }
