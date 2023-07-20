@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Київ</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link href="css/modal.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div class="city-page">
+    <div class="wrapper">
+        <img src="image/logo.png" alt="GoIT Logo" class="goit-logo animate__animated animate__bounce">
+        <div class="city-text-container animate__animated animate__backInRight">
+            <h1 class="city-title">Київ</h1>
+            <p class="city-desc">Наша каштанова столиця.
+                Місто засноване 482 року, налічує близько 3 мільйонів сердець та є 7-м за величиною містом Європи.
+                Найширша
+                й,
+                водночас, найкоротша вулиця в усій Європі - Хрещатик.
+                Метро Києва - одне з найстаріших в Європі, а станція «Золоті ворота» входить в топ-10 найкрасивіших у
+                світі.
+                Від
+                світанків на Співочому полі, заходів сонця на Дніпрі до неймовірно смачної перепічки - тут усе таке
+                рідне.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="city-gallery">
+    <h2 class="city-gallery-title">Київ = каштанова столиця</h2>
+    
+    <div class="wrapper">
+        <div class="gallery">
+            <div class="gallery">
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="0">
+                    <img src="image/kyiv/1.jpg" alt="Alt1" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="1">
+                    <img src="image/kyiv/2.jpg" alt="Alt2" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="2">
+                    <img src="image/kyiv/3.jpg" alt="Alt3" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="3">
+                    <img src="image/kyiv/4.jpg" alt="Alt4" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="4">
+                    <img src="image/kyiv/5.jpg" alt="Alt5" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="5">
+                    <img src="image/kyiv/6.jpg" alt="Alt6" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="6">
+                    <img src="image/kyiv/7.jpg" alt="Alt7" class="gallery-image">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="7">
+                    <img src="image/kyiv/8.jpg" alt="Alt8" class="gallery-image">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal micromodal-slide" id="modal" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <header class="modal__header">
+                <h2 class="modal__title" id="modal-title">
+                    Cвітлини міста Київ
+                </h2>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="modal__content" id="modal-content">
+                <div class="splide" role="group" aria-label="city-gallery">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="image/kyiv/1.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/2.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/3.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/4.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/5.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/6.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/7.jpg" alt="Alt text">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image/kyiv/8.jpg" alt="Alt text">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
