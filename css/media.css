@@ -1,0 +1,24 @@
+@media (max-width: 361px) {
+    .wrapper {
+        width: auto;
+        justify-content: center;
+    }
+
+    .city-text-container {
+        margin-top: 50px;
+        padding: 30px;
+        width: 300px;
+    }
+
+    .city-title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 36px;
+        margin-top: 30px;
+    }
+
+    .city-desc {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
