@@ -6,20 +6,21 @@
 
     .goit-logo {
         left: 20px !important;
+        top: 20px !important;
     }
 
     .city-text-container {
         margin: 15px !important;
-        padding: 30px !important;
+        padding: 20px !important;
     }
 
     .city-title {
-        margin-bottom: 36px !important;
+        margin-bottom: 24px !important;
         margin-top: 0 !important;
     }
 
     .city-desc {
-        font-size: 14px !important;
+        font-size: 16px !important;
         line-height: 22px !important;
     }
 
