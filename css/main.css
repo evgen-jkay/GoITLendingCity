@@ -101,7 +101,7 @@ body {
 
 .footer {
     background-color: #efefef;
-    height: 80px;
+    height: 100px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -110,9 +110,15 @@ body {
 
 .footer-text {
     color: #1b1d1f;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text p {
+    margin: 20px;
 }
 
 .footer-text a {
